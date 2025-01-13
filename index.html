@@ -1,0 +1,453 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./css/style.css">
+  <link rel="stylesheet" href="./bs/bootstrap.css">
+  <link rel="icon" type="image/x-icon" href="./images/netflix.png">
+
+  <title>Netflix</title>
+
+</head>
+
+<body>
+
+
+  <main class="">
+    <div class="section mb-0 image">
+      <div class=" container ">
+
+        <div class="mx-5">
+          <nav class="navbar navbar-expand-lg navbar-light" id="nav-bar">
+            <div class="container-fluid">
+              <a class="navbar-brand" href="index.html">
+                <img src="./images/netflix-logo-0.png" alt="">
+              </a>
+              <div class="mini-menu">
+                <a class="btn" data-bs-toggle="offcanvas" href="#offcanvasExample" role="button"
+                  aria-controls="offcanvasExample">
+                  <span class="navbar-toggler-icon"><svg xmlns="http://www.w3.org/2000/svg"
+                      xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" id="Capa_1" x="0px" y="0px"
+                      viewBox="0 0 31.177 31.177" style="enable-background:new 0 0 31.177 31.177;" xml:space="preserve"
+                      width="25px" height="25px">
+                      <g>
+                        <g>
+                          <path class="menubar"
+                            d="M30.23,1.775H0.946c-0.489,0-0.887-0.398-0.887-0.888S0.457,0,0.946,0H30.23    c0.49,0,0.888,0.398,0.888,0.888S30.72,1.775,30.23,1.775z"
+                            fill="red"></path>
+                        </g>
+                        <g>
+                          <path class="menubar"
+                            d="M30.23,9.126H12.069c-0.49,0-0.888-0.398-0.888-0.888c0-0.49,0.398-0.888,0.888-0.888H30.23    c0.49,0,0.888,0.397,0.888,0.888C31.118,8.729,30.72,9.126,30.23,9.126z"
+                            fill="red"></path>
+                        </g>
+                        <g>
+                          <path class="menubar"
+                            d="M30.23,16.477H0.946c-0.489,0-0.887-0.398-0.887-0.888c0-0.49,0.398-0.888,0.887-0.888H30.23    c0.49,0,0.888,0.397,0.888,0.888C31.118,16.079,30.72,16.477,30.23,16.477z"
+                            fill="red"></path>
+                        </g>
+                        <g>
+                          <path class="menubar"
+                            d="M30.23,23.826H12.069c-0.49,0-0.888-0.396-0.888-0.887c0-0.49,0.398-0.888,0.888-0.888H30.23    c0.49,0,0.888,0.397,0.888,0.888C31.118,23.43,30.72,23.826,30.23,23.826z"
+                            fill="red"></path>
+                        </g>
+                        <g>
+                          <path class="menubar"
+                            d="M30.23,31.177H0.946c-0.489,0-0.887-0.396-0.887-0.887c0-0.49,0.398-0.888,0.887-0.888H30.23    c0.49,0,0.888,0.398,0.888,0.888C31.118,30.78,30.72,31.177,30.23,31.177z"
+                            fill="red"></path>
+                        </g>
+                      </g>
+                    </svg></span>
+                </a>
+                <div class="offcanvas offcanvas-start bg-dark" tabindex="-1" id="offcanvasExample"
+                  aria-labelledby="offcanvasExampleLabel">
+                  <div class="offcanvas-header">
+                    <h5 class="offcanvas-title text-light" id="offcanvasExampleLabel"><a href="#"><img
+                          src="./images/netflix-logo-0.png" alt=""></a></h5>
+                    <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas"
+                      aria-label="Close"></button>
+                  </div>
+                  <div class="offcanvas-body">
+                    <hr class="bg-light">
+                    <div class="text-light">
+                      Some text as placeholder. In real life you can have the elements you have chosen. Like, text,
+                      images, lists, etc.
+                    </div>
+                    <hr class="bg-light">
+
+                    <ul class="offcanvas-text">
+                      <li class="nav-lin"><a href="#">Contact Us</a> <span class="float-end mb-2"><img
+                            src="./images/email.png" alt=""></span></li>
+                      <hr class="bg-light">
+
+                      <li class="nav-link"><a href="./register.html">Sign Up</a> </li>
+
+                      <hr class="bg-light">
+
+                      <li class="nav-link"><a href="./register.html">Follow Us</a> </li>
+
+                    </ul>
+
+
+                  </div>
+                </div>
+              </div>
+
+
+              <div class="collapse navbar-collapse signup" id="navbarSupportedContent">
+                <a href="./register.html"
+                  class="navbar-nav ms-auto btn btn-sm rounded-2 py-1 ps-3 pe-3 text-light fw-bold">
+                  Sign up
+                </a>
+              </div>
+            </div>
+          </nav>
+        </div>
+
+      </div>
+
+      <div class="section2">
+        <div class="container">
+          <h1> <b> Unlimited movies, TV shows, and more. </b> </h1>
+          <h4 class="text-light text-center">Watch anywhere. Cancel anytime.</h4>
+          <p>Ready to watch? Enter your email to create or restart your membership.</p>
+          <form class="d-flex ">
+            <div class="form-floating mb-3 d-flex ">
+              <input type="email" class="form-control" id="floatingInput" placeholder="name@example.com" required>
+              <label for="floatingInput">Email address</label>
+
+              <button class="btn btn-md ms-2" type="submit">Get Started
+                <!-- <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" fill="currentColor" class="bi bi-chevron-right" viewBox="0 0 16 16">
+                <path fill-rule="evenodd" d="M4.646 1.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 0 .708l-6 6a.5.5 0 0 1-.708-.708L10.293 8 4.646 2.354a.5.5 0 0 1 0-.708z"/>
+              </svg> -->
+              </button>
+            </div>
+
+          </form>
+        </div>
+      </div>
+
+
+    </div>
+
+    <!-- Movies Section -->
+
+
+    <div class="row container-fluid mx-auto ms-0 me-0 my-5">
+
+      <div class="first-movie-section">
+        <h3>Children & Family</h3>
+      </div>
+
+      <div class="col-xl-2 col-md-3 col-sm-12 my-3 jumbo-one">
+        <div class="jumbotron">
+          <div class="">
+            <img src="./images/Posters/APOCALYPTO.jpeg" alt="">
+          </div>
+          <div class="hamburger" id="hamburger">
+            <a href="./detail-page.html">
+              <img src="./images/netflix.png" alt="">
+            </a>
+          </div>
+          <a href="./detail-page.html">View Details</a>
+
+          <div class="jumbo-details" id="jumbo-details">
+            <h5>Apocalypto</h5>
+            <p>
+              <!-- It can take just 20 wordings -->
+              Lorem ipsum dolor sit, amet consectetur adipisicing elit. Aliquam repellendus cum at aspernatur aut
+              recusandae, excepturi inventore animi nobis non! ...
+            </p>
+            <a href="#">View Details</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-xl-2 col-md-3 col-sm-12 my-3 jumbo-two">
+        <div class="jumbotron">
+          <div class="">
+            <img src="./images/Posters/Ava - JoBlo.png" alt="">
+          </div>
+          <div class="hamburger" id="hamburger">
+            <a href="./detail-page.html">
+              <img src="./images/netflix.png" alt="">
+            </a>
+          </div>
+          <a href="./detail-page.html">View Details</a>
+
+          <div class="jumbo-details" id="jumbo-details">
+            <h5>Ava</h5>
+            <p>
+              <!-- It can take just 20 wordings -->
+              Lorem ipsum dolor sit, amet consectetur adipisicing elit. Aliquam repellendus cum at aspernatur aut
+              recusandae, excepturi inventore animi nobis non! ...
+            </p>
+            <a href="#">View Details</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-xl-2 col-md-3 col-sm-12 my-3 jumbo-three">
+        <div class="jumbotron">
+          <div class="">
+            <img src="./images/Posters/Bad Boys for Life Movie Poster.png" alt="">
+          </div>
+          <div class="hamburger" id="hamburger">
+            <a href="./detail-page.html">
+              <img src="./images/netflix.png" alt="">
+            </a>
+          </div>
+          <a href="./detail-page.html">View Details</a>
+
+          <div class="jumbo-details" id="jumbo-details">
+            <h5>BB4L</h5>
+            <p>
+              <!-- It can take just 20 wordings -->
+              Lorem ipsum dolor sit, amet consectetur adipisicing elit. Aliquam repellendus cum at aspernatur aut
+              recusandae, excepturi inventore animi nobis non! ...
+            </p>
+            <a href="#">View Details</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-xl-2 col-md-3 col-sm-12 my-3 jumbo-four">
+        <div class="jumbotron">
+          <div class="">
+            <img src="./images/Posters/Black Widow Movie Poster by Mixo.png" alt="">
+          </div>
+          <div class="hamburger" id="hamburger">
+            <a href="./detail-page.html">
+              <img src="./images/netflix.png" alt="">
+            </a>
+          </div>
+          <a href="./detail-page.html">View Details</a>
+
+          <div class="jumbo-details" id="jumbo-details">
+            <h5>Black Widow</h5>
+            <p>
+              <!-- It can take just 20 wordings -->
+              Lorem ipsum dolor sit, amet consectetur adipisicing elit. Aliquam repellendus cum at aspernatur aut
+              recusandae, excepturi inventore animi nobis non! ...
+            </p>
+            <a href="#">View Details</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-xl-2 col-md-3 col-sm-12 my-3 jumbo-five">
+        <div class="jumbotron">
+          <div class="">
+            <img src="./images/Posters/c74726ed-2f7a-4fd9-9ab2-5a1498a0e6af.jpeg" alt="">
+          </div>
+          <div class="hamburger" id="hamburger">
+            <a href="./detail-page.html">
+              <img src="./images/netflix.png" alt="">
+            </a>
+          </div>
+          <a href="./detail-page.html">View Details</a>
+
+          <div class="jumbo-details" id="jumbo-details">
+            <h5>Home Front</h5>
+            <p>
+              <!-- It can take just 20 wordings -->
+              Lorem ipsum dolor sit, amet consectetur adipisicing elit. Aliquam repellendus cum at aspernatur aut
+              recusandae, excepturi inventore animi nobis non! ...
+            </p>
+            <a href="#">View Details</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-xl-2 col-md-3 col-sm-12 my-3 jumbo-six">
+        <div class="jumbotron">
+          <div class="">
+            <img src="./images/Posters/graphic by hallowseva _ DON'T REPOST.jpeg" alt="">
+          </div>
+          <div class="hamburger" id="hamburger">
+            <a href="./detail-page.html">
+              <img src="./images/netflix.png" alt="">
+            </a>
+          </div>
+          <a href="./detail-page.html">View Details</a>
+
+          <div class="jumbo-details" id="jumbo-details">
+            <h5>The Mechanic</h5>
+            <p>
+              <!-- It can take just 20 wordings -->
+              Lorem ipsum dolor sit, amet consectetur adipisicing elit. Aliquam repellendus cum at aspernatur aut
+              recusandae, excepturi inventore animi nobis non! ...
+            </p>
+            <a href="#">View Details</a>
+          </div>
+        </div>
+      </div>
+
+    </div>
+
+
+
+    <!-- Accordion -->
+    <div class="Accordion-section">
+      <div class="accordion accordion-flush" id="accordionFlushExample">
+        <h2>Frequently Asked Questions</h2>
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="flush-headingOne">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+              data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
+              What is Netflix?
+            </button>
+          </h2>
+          <div id="flush-collapseOne" class="accordion-collapse collapse" aria-labelledby="flush-headingOne"
+            data-bs-parent="#accordionFlushExample">
+            <div class="accordion-body">Netflix is a streaming service that offers a wide variety of award-winning TV
+              shows, movies, anime, documentaries, and more on thousands of internet-connected devices.
+
+              You can watch as much as you want, whenever you want without a single commercial – all for one low monthly
+              price. There's always something new to discover and new TV shows and movies are added every week!</div>
+          </div>
+        </div>
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="flush-headingTwo">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+              data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
+              What is the cost?
+            </button>
+          </h2>
+          <div id="flush-collapseTwo" class="accordion-collapse collapse" aria-labelledby="flush-headingTwo"
+            data-bs-parent="#accordionFlushExample">
+            <div class="accordion-body">Watch Netflix on your smartphone, tablet, Smart TV, laptop, or streaming device,
+              all for one fixed monthly fee. Plans range from ₦1,200 to ₦4,400 a month. No extra costs, no contracts.
+            </div>
+          </div>
+        </div>
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="flush-headingThree">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+              data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
+              Where can i watch?
+            </button>
+          </h2>
+          <div id="flush-collapseThree" class="accordion-collapse collapse" aria-labelledby="flush-headingThree"
+            data-bs-parent="#accordionFlushExample">
+            <div class="accordion-body">Watch anywhere, anytime. Sign in with your Netflix account to watch instantly on
+              the web at netflix.com from your personal computer or on any internet-connected device that offers the
+              Netflix app, including smart TVs, smartphones, tablets, streaming media players and game consoles.
+
+              You can also download your favorite shows with the iOS, Android, or Windows 10 app. Use downloads to watch
+              while you're on the go and without an internet connection. Take Netflix with you anywhere.</div>
+          </div>
+        </div>
+
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="flush-headingThree">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+              data-bs-target="#flush-collapseFour" aria-expanded="false" aria-controls="flush-collapseFour">
+              What can i watch?
+            </button>
+          </h2>
+          <div id="flush-collapseFour" class="accordion-collapse collapse" aria-labelledby="flush-headingFour"
+            data-bs-parent="#accordionFlushExample">
+            <div class="accordion-body">Netflix has an extensive library of feature films, documentaries, TV shows,
+              anime, award-winning Netflix originals, and more. Watch as much as you want, anytime you want.</div>
+          </div>
+        </div>
+
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="flush-headingThree">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+              data-bs-target="#flush-collapseFive" aria-expanded="false" aria-controls="flush-collapseFive">
+              What payment is accepted?
+            </button>
+          </h2>
+          <div id="flush-collapseFive" class="accordion-collapse collapse" aria-labelledby="flush-headingFour"
+            data-bs-parent="#accordionFlushExample">
+            <div class="accordion-body">Netflix has an extensive library of feature films, documentaries, TV shows,
+              anime, award-winning Netflix originals, and more. Watch as much as you want, anytime you want.</div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+
+    <!-- News Letter -->
+    <div class="newsletter-section">
+      <h4 class="text-center text-uppercase fw-bold">Newsletter</h4>
+      <p class="text-dark">Ready to watch? Enter your email to create or restart your membership.</p>
+      <div class="newsletter">
+        <form class="">
+          <div class="form-floating mb-3 d-flex ">
+            <input type="email" class="form-control" id="floatingInput" placeholder="name@example.com" required>
+            <label for="floatingInput">Email address</label>
+
+            <button class="btn btn-md ms-2" type="submit">Get Started
+              <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" fill="currentColor"
+                class="bi bi-chevron-right" viewBox="0 0 16 16">
+                <path fill-rule="evenodd"
+                  d="M4.646 1.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 0 .708l-6 6a.5.5 0 0 1-.708-.708L10.293 8 4.646 2.354a.5.5 0 0 1 0-.708z" />
+              </svg>
+            </button>
+          </div>
+
+        </form>
+      </div>
+    </div>
+
+
+
+    <!-- Footer -->
+    <footer class="footer">
+      <div class="first-line">
+        <img src="./images/netflix-logo-0.png" alt="">
+        <p>Bringing Joy to people</p>
+      </div>
+
+      <div class="socials">
+        <div class="home-menu">
+          <p><a href="#">FAQ</a></p>
+          <p><a href="#">Investors relations</a></p>
+          <p><a href="#">Privacy</a></p>
+          <p><a href="#">Speed Test</a></p>
+          <select name="" id="" class="form-select">
+            <option value="English">English</option>
+          </select>
+          <p class="pt-4">Netflix Nigeria</p>
+
+        </div>
+
+        <div class="images-section">
+          <p><a href="#">Help center</a></p>
+          <p><a href="#">Jobs</a></p>
+          <p><a href="#">Cookie preferences</a></p>
+          <p><a href="#">Legal Notice</a></p>
+        </div>
+        <div class="return-section">
+          <p><a href="#">Account</a></p>
+          <p><a href="#">Ways to watch</a></p>
+          <p><a href="#">Cooperate information</a></p>
+          <p><a href="#">Only on Netflix</a></p>
+        </div>
+
+        <div class="social-media-icon">
+          <p><a href="#">Media center</a></p>
+          <p><a href="#">Terms of use</a></p>
+          <p><a href="#">Contact us</a></p>
+        </div>
+      </div>
+    </footer>
+
+
+
+  </main>
+
+
+
+
+  <script src="./js/script.js"></script>
+  <script src="./bs/bootstrap.bundle.js"></script>
+</body>
+
+</html>
